@@ -23,11 +23,11 @@ numpy, pandas, matplotlib
 pandapower or pypower (if used for load flow)
 pyyaml or jsonschema (if configurations are structured)
 
-🏃 Usage
+ Usage
 To run a base scenario:
 python main.py --scenario baseline --duration 3600
 
-📊 Output & Visualization
+Output & Visualization
 plots.py typically produces:
 Bus voltage and system frequency vs time
 BESS SoC and power dispatch
